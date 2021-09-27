@@ -12,7 +12,7 @@ def random_predict(number:int=1) -> int:
         int: 
             The number of attempts
     """
-    # Инициализируем границы поиска случайным методом
+    # Инициализируем границы поиска
     # Так, что бы left_border < number > right_border
     right_border = 101
     left_border = 0
